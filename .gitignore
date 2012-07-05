@@ -26,6 +26,9 @@ pip-log.txt
 #Translations
 *.mo
 
-#Mr Developer
+# Mr Developer
 .mr.developer.cfg
 
+
+# Ignore the output file from pip2buildout.py
+pip.cfg
