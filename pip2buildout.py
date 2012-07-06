@@ -33,7 +33,7 @@ def main(req_file, output_file):
         for source in sources:
             file.write("\n")
             file.write(source)
-        file.write("\n\n[req-eggs]\n\neggs =")
+        file.write("\n\n[pip]\n\neggs =")
         for egg in eggs:
             file.write("\n    ")
             file.write(egg)
