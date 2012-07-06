@@ -29,6 +29,3 @@ pip-log.txt
 # Mr Developer
 .mr.developer.cfg
 
-
-# Ignore the output file from pip2buildout.py
-pip.cfg
