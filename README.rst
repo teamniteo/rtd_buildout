@@ -2,6 +2,7 @@
 Read the docs (buildout)
 ========================
 
+Buildout for internally running ReadTheDocs.
 This is an alternative installation procedure. For people who are not using
 virtualenv on servers.
 
@@ -11,6 +12,7 @@ Installation
 Start::
 
     bin/buildout
+    bin/supervisord
 
 
 Problems
